@@ -9,7 +9,7 @@ export default defineConfig({
   test: {
     environment: "happy-dom",
     coverage: {
-      reporter: ["text", "html"],
+      reporter: ["text", "json", "html"],
     },
   },
   plugins: [vue()],
